@@ -158,4 +158,38 @@ The multiplication expression, the correct solution and the multiple-choice opti
 are generate in the `void playQuiz(Scanner sc)`method. They are passed to the 
 `void askQuestion(Scanner sc, String expression, int correctAnswer, int[] choices)`
 method to display the question (maintaining a structure similar to the instructions)
-and validate the user's answer.
+and validate the user's answer. 
+
+## Sample Run
+```
+Hello! My name is Ryubo.
+I was created in 2026
+Ryubo: Please, remind me your name.
+: Carlos
+Ryubo: What a great name you have, Carlos!
+Ryubo: Let me guess your age.
+Ryubo: Enter the reminders of dividing your age by 3, 5 and 7.
+: 2
+: 0
+: 6
+Ryubo: Your age is 20; that's a good time to start programming!
+Ryubo: Now, I will prove to you that I can count to any number you want.
+Ryubo: Please enter the target number to count up to.
+: 3
+0!
+1!
+2!
+3!
+Ryubo: Let's test your mathematical skills.
+Ryubo: What is the product of (24 * 6) ?:
+a. 58
+b. 144
+c. 99
+d. 155
+Ryubo: Enter the product of the problem to answer the question.
+: 99
+Please, try again.
+: 144
+Ryubo: Congratulation!
+Ryubo: See you later, Carlos!.
+```

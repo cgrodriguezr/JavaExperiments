@@ -80,7 +80,7 @@ public class SimpleBot{
             System.out.println("Please, try again.");
         } while (userResponse != correctAnswer);
 
-        System.out.println("Congratulations, have a nice day!");
+        System.out.printf("%s: Congratulation!\n", BOT_NAME);
     }
 
     public static void main(String[] args) {
@@ -104,6 +104,7 @@ public class SimpleBot{
         // Stage 5
         playQuiz(sc);
 
+        System.out.printf("%s: See you later, %s!.\n", BOT_NAME, userName);
         sc.close();
     }
 }
