@@ -270,7 +270,7 @@ Please enter the number of the habitat you would like to view:
 4. Goose
 5. Bat
 6. Rabbit
-:I'm trying to break the program"
+:I'm trying to break the program$x""/
 Invalid input. Please try again
 Please enter the number of the habitat you would like to view:
 1. Camel
